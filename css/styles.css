@@ -1,74 +1,173 @@
 
+/* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #1F3BB3; /* Posh deep blue */
+}
+
+a:hover {
+    color: #7248DB; /* Posh purple */
 }
 
 header {
-    background-color: #0047ab;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #1F3BB3; /* Posh deep blue */
+    padding: 20px 0;
 }
 
-nav ul {
-    list-style: none;
+header nav ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-nav ul li {
+header nav ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
 }
 
-main {
+header nav ul li a:hover {
+    background-color: #7248DB; /* Posh purple */
+    border-radius: 5px;
+}
+
+section#intro {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+section#intro h1 {
+    font-size: 2.5em;
+    color: #1F3BB3; /* Posh deep blue */
+}
+
+section#intro p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+section#cta {
+    background-color: #7248DB; /* Posh purple */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section#cta h2 {
+    font-size: 2em;
+}
+
+section#cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+section#cta a.btn {
+    background-color: #1F3BB3; /* Posh deep blue */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+section#cta a.btn.secondary {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+section#cta a.btn:hover {
+    background-color: white;
+    color: #7248DB; /* Posh purple */
+}
+
+section#resources {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+section#resources .resource {
+    background-color: white;
+    border-radius: 10px;
     padding: 20px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+section#resources .resource:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section#resources h2 {
+    color: #1F3BB3; /* Posh deep blue */
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
 footer {
-    background-color: #0047ab;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #1F3BB3; /* Posh deep blue */
+    color: white;
+    padding: 40px 20px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 footer ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 0;
 }
 
 footer ul li {
-    margin: 0 10px;
+    margin-bottom: 10px;
 }
 
 footer ul li a {
-    color: #fff;
-    text-decoration: none;
+    color: white;
+    font-size: 1em;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff9800;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px 0;
+footer ul li a:hover {
+    color: #7248DB; /* Posh purple */
 }
 
-.cta-button:hover {
-    background-color: #e68900;
+footer section#legal {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer section#social-media ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer section#social-media ul li {
+    margin: 0 10px;
+}
+
+footer section#social-media ul li a {
+    font-size: 1.5em;
 }
