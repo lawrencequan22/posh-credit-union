@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Posh Credit Union</title>
+    <style>
+        /* Same base styles as previous pages */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .contact-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        .contact-form {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Posh Credit Union</h1>
+        <p>Your Trusted Financial Partner</p>
+    </header>
+    <nav>
+        <!-- Same navigation as previous pages -->
+    </nav>
+    <main>
+        <h2>Contact Us</h2>
+        <p>We're here to help! Choose the best way to reach us below.</p>
+        
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Phone Support</h3>
+                <p>Call us: (555) 123-4567</p>
+                <p>Monday-Friday: 8am-8pm</p>
+                <p>Saturday: 9am-5pm</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="contact-card">
+                <h3>Email Support</h3>
+                <p>General Inquiries: info@poshcu.com</p>
+                <p>Loan Support: loans@poshcu.com</p>
+                <p>Technical Support: tech@poshcu.com</p>
+            </div>
+            <div class="contact-card">
+                <h3>Visit Us</h3>
+                <p>Main Branch:</p>
+                <p>123 Financial Street</p>
+                <p>Wealthyville, WV 12345</p>
+                <p>Monday-Friday: 9am-5pm</p>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <p>For immediate assistance with your account, please log in to your <a href="#">Online Banking</a> or use our <a href="#">Mobile App</a>.</p>
+    </main>
+</body>
+</html>
