@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -12,6 +12,7 @@ body {
 a {
     text-decoration: none;
     color: #1F3BB3; /* Deep blue */
+    transition: color 0.3s ease;
 }
 
 a:hover {
@@ -21,6 +22,7 @@ a:hover {
 header {
     background-color: #1F3BB3; /* Deep blue */
     padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header nav ul {
@@ -48,13 +50,14 @@ header nav ul li a:hover {
 }
 
 section#hero {
-    background-color: #F4F7FF; /* Light blue background */
+    background-color: #f4f7ff; /* Light blue background */
     padding: 80px 20px;
     text-align: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 section#hero h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #1F3BB3; /* Deep blue */
     margin-bottom: 20px;
 }
@@ -66,97 +69,66 @@ section#hero p {
     margin: 0 auto;
 }
 
-section#hero a.btn {
+section#cta, footer {
     background-color: #1F3BB3; /* Deep blue */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#cta h2, footer h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section#cta p, footer p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+section#cta a.btn, footer a.btn {
+    background-color: #7248DB; /* Purple */
     color: white;
     padding: 15px 30px;
     font-size: 1em;
     border-radius: 30px;
+    transition: background-color 0.3s ease;
     display: inline-block;
     margin-top: 20px;
-    transition: background-color 0.3s ease;
 }
 
-section#hero a.btn.secondary {
-    background-color: transparent;
-    border: 2px solid #1F3BB3; /* Deep blue */
-    color: #1F3BB3; /* Deep blue */
+section#cta a.btn:hover, footer a.btn:hover {
+    background-color: white;
+    color: #7248DB; /* Purple */
 }
 
-section#hero a.btn:hover {
-    background-color: #7248DB; /* Purple */
-    color: white;
+section#education-resources, section#blog-articles, section#faq, section#resources {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
 }
 
-section#features {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-section#features .feature {
-    padding: 20px;
-    margin: 20px;
-    background-color: #F4F7FF; /* Light blue background */
+section#education-resources .resource, section#blog-articles .article, section#faq .faq-item {
+    background-color: #f4f7ff;
     border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 45%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
 }
 
-section#features .feature:hover {
+section#education-resources .resource:hover, section#blog-articles .article:hover, section#faq .faq-item:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-section#features h2 {
-    font-size: 2em;
-    color: #1F3BB3; /* Deep blue */
-    margin-bottom: 15px;
-}
-
-section#features p {
-    color: #555;
-    font-size: 1.1em;
-}
-
-section#cta {
-    background-color: #7248DB; /* Purple */
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-
-section#cta h2 {
-    font-size: 2.5em;
-}
-
-section#cta p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-section#cta a.btn {
-    background-color: white;
-    color: #7248DB; /* Purple */
-    padding: 15px 30px;
-    font-size: 1em;
-    border-radius: 30px;
-    transition: background-color 0.3s ease;
-}
-
-section#cta a.btn:hover {
-    background-color: #1F3BB3; /* Deep blue */
-    color: white;
-}
-
 footer {
+    margin-top: 40px;
     background-color: #1F3BB3; /* Deep blue */
-    color: white;
     padding: 40px 20px;
-}
-
-footer h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    color: white;
 }
 
 footer ul {
@@ -177,12 +149,6 @@ footer ul li a:hover {
     color: #7248DB; /* Purple */
 }
 
-footer section#legal {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-}
-
 footer section#social-media ul {
     display: flex;
     justify-content: center;
@@ -195,4 +161,9 @@ footer section#social-media ul li {
 
 footer section#social-media ul li a {
     font-size: 1.5em;
+    color: white;
+}
+
+footer section#social-media ul li a:hover {
+    color: #7248DB; /* Purple */
 }
