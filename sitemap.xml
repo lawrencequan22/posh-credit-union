@@ -1,4 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/index.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/personal-banking.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/business-banking.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/rates.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/loans.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/credit-cards.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/resources.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/about-us.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/contact-us.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/login.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/join.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/branch-locator.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/financial-education.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/faqs.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/blog.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/about.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/products_services.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/rates_fees.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/member_resources.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lawrencequan22.github.io/posh-credit-union/contact.html</loc>
+  <lastmod>2024-08-15T18:24:58+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://lawrencequan22.github.io/posh-credit-union/</loc>
@@ -33,3 +145,4 @@
       <priority>0.80</priority>
    </url>
 </urlset>
+ -->
