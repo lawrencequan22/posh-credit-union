@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rates – Posh Credit Union</title>
+    <title>Loan Rates – Posh Credit Union</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Added Google font for improved typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Header -->
     <header>
         <nav>
             <ul>
+                <!-- Enhanced navigation bar with a CTA button for joining -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="personal-banking.html">Personal Banking</a></li>
                 <li><a href="business-banking.html">Business Banking</a></li>
@@ -21,125 +26,280 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html" class="btn login">Login</a></li>
+                <li><a href="join.html" class="btn primary">Join Now</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Intro Section -->
-    <section id="intro">
-        <h1>Current Rates at Posh Credit Union</h1>
-        <p>Find the most competitive rates on our products and services. Whether you're looking to open a savings account, apply for a loan, or invest in a Certificate of Deposit, we have rates that work for you.</p>
-    </section>
-
     <!-- Rates Section -->
     <section id="rates">
-        <h2>Savings Accounts</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Account Type</th>
-                    <th>Minimum Balance</th>
-                    <th>Interest Rate</th>
-                    <th>APY*</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Regular Savings</td>
-                    <td>$50</td>
-                    <td>0.10%</td>
-                    <td>0.10%</td>
-                </tr>
-                <tr>
-                    <td>Money Market</td>
-                    <td>$1,000</td>
-                    <td>0.25%</td>
-                    <td>0.25%</td>
-                </tr>
-                <tr>
-                    <td>High Yield Savings</td>
-                    <td>$10,000</td>
-                    <td>0.50%</td>
-                    <td>0.50%</td>
-                </tr>
-            </tbody>
-        </table>
+        <h1>Current Loan Rates</h1>
+        <p>Explore our competitive rates for a wide range of loan products designed to fit your financial needs. Whether you're purchasing a new home, refinancing, or buying a car, Posh Credit Union offers some of the best rates available.</p>
 
-        <h2>Certificates of Deposit (CDs)</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Term</th>
-                    <th>Minimum Balance</th>
-                    <th>Interest Rate</th>
-                    <th>APY*</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>6 Months</td>
-                    <td>$500</td>
-                    <td>1.00%</td>
-                    <td>1.00%</td>
-                </tr>
-                <tr>
-                    <td>12 Months</td>
-                    <td>$500</td>
-                    <td>1.25%</td>
-                    <td>1.26%</td>
-                </tr>
-                <tr>
-                    <td>24 Months</td>
-                    <td>$500</td>
-                    <td>1.50%</td>
-                    <td>1.51%</td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Group 1: Mortgage Rates -->
+        <div class="rate-group">
+            <h2>Mortgage Rates</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30-Year Fixed</td>
+                        <td>3.75%</td>
+                        <td>3.85%</td>
+                    </tr>
+                    <tr>
+                        <td>15-Year Fixed</td>
+                        <td>3.25%</td>
+                        <td>3.35%</td>
+                    </tr>
+                    <tr>
+                        <td>5/1 ARM</td>
+                        <td>3.50%</td>
+                        <td>3.65%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        <h2>Loan Rates</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Loan Type</th>
-                    <th>Term</th>
-                    <th>Rate</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Auto Loan</td>
-                    <td>Up to 60 months</td>
-                    <td>2.99% APR**</td>
-                </tr>
-                <tr>
-                    <td>Home Loan</td>
-                    <td>15 Years Fixed</td>
-                    <td>3.25% APR**</td>
-                </tr>
-                <tr>
-                    <td>Personal Loan</td>
-                    <td>Up to 36 months</td>
-                    <td>5.99% APR**</td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Group 2: Home Equity Lines of Credit (HELOC) -->
+        <div class="rate-group">
+            <h2>Home Equity Lines of Credit (HELOC)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10-Year Draw Period</td>
+                        <td>4.00%</td>
+                        <td>4.10%</td>
+                    </tr>
+                    <tr>
+                        <td>20-Year Repayment Period</td>
+                        <td>4.50%</td>
+                        <td>4.60%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        <p>*APY = Annual Percentage Yield</p>
-        <p>**APR = Annual Percentage Rate</p>
+        <!-- Group 3: Refinance Rates -->
+        <div class="rate-group">
+            <h2>Refinance Rates</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>30-Year Fixed</td>
+                        <td>3.65%</td>
+                        <td>3.75%</td>
+                    </tr>
+                    <tr>
+                        <td>15-Year Fixed</td>
+                        <td>3.15%</td>
+                        <td>3.25%</td>
+                    </tr>
+                    <tr>
+                        <td>5/1 ARM</td>
+                        <td>3.45%</td>
+                        <td>3.60%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 4: Auto Loan Rates -->
+        <div class="rate-group">
+            <h2>Auto Loan Rates</h2>
+
+            <!-- New Cars -->
+            <h3>New Cars</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>36 Months</td>
+                        <td>2.50%</td>
+                        <td>2.60%</td>
+                    </tr>
+                    <tr>
+                        <td>60 Months</td>
+                        <td>3.00%</td>
+                        <td>3.10%</td>
+                    </tr>
+                    <tr>
+                        <td>72 Months</td>
+                        <td>3.25%</td>
+                        <td>3.35%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Used Cars -->
+            <h3>Used Cars</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>36 Months</td>
+                        <td>3.00%</td>
+                        <td>3.10%</td>
+                    </tr>
+                    <tr>
+                        <td>60 Months</td>
+                        <td>3.50%</td>
+                        <td>3.60%</td>
+                    </tr>
+                    <tr>
+                        <td>72 Months</td>
+                        <td>3.75%</td>
+                        <td>3.85%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 5: Personal Loan Rates -->
+        <div class="rate-group">
+            <h2>Personal Loan Rates</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12 Months</td>
+                        <td>5.50%</td>
+                        <td>5.60%</td>
+                    </tr>
+                    <tr>
+                        <td>24 Months</td>
+                        <td>6.00%</td>
+                        <td>6.10%</td>
+                    </tr>
+                    <tr>
+                        <td>36 Months</td>
+                        <td>6.50%</td>
+                        <td>6.60%</td>
+                    </tr>
+                    <tr>
+                        <td>48 Months</td>
+                        <td>7.00%</td>
+                        <td>7.10%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Group 6: Other Loan Rates -->
+        <div class="rate-group">
+            <h2>Other Loan Rates</h2>
+
+            <!-- RV and Boat Loans -->
+            <h3>RV and Boat Loans</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>60 Months</td>
+                        <td>4.50%</td>
+                        <td>4.60%</td>
+                    </tr>
+                    <tr>
+                        <td>120 Months</td>
+                        <td>5.00%</td>
+                        <td>5.10%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Debt Consolidation Loans -->
+            <h3>Debt Consolidation Loans</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Interest Rate</th>
+                        <th>APR*</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>24 Months</td>
+                        <td>6.25%</td>
+                        <td>6.35%</td>
+                    </tr>
+                    <tr>
+                        <td>36 Months</td>
+                        <td>6.75%</td>
+                        <td>6.85%</td>
+                    </tr>
+                    <tr>
+                        <td>48 Months</td>
+                        <td>7.25%</td>
+                        <td>7.35%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Disclaimers -->
+        <section id="rate-disclaimers">
+            <p><strong>APR*</strong>: Annual Percentage Rate. Rates are subject to change without notice. Your rate may be different based on your creditworthiness, term length, and other factors.</p>
+            <p>For more details or to apply, please visit our <a href="loans.html">loans page</a> or contact one of our representatives.</p>
+        </section>
     </section>
 
     <!-- CTA Section -->
     <section id="cta">
-        <h2>Ready to Get Started?</h2>
-        <p>Take advantage of our competitive rates today. Open an account, apply for a loan, or invest in a CD with Posh Credit Union.</p>
-        <a href="join.html" class="btn primary">Join Now</a>
-        <a href="contact-us.html" class="btn secondary">Contact Us</a>
+        <h2>Ready to Apply for a Loan?</h2>
+        <p>Take the next step towards achieving your financial goals with Posh Credit Union. Apply online today or visit one of our branches for personalized assistance.</p>
+        <a href="loan-application.html" class="btn primary">Apply Now</a>
+        <a href="schedule-consultation.html" class="btn secondary">Schedule a Consultation</a>
     </section>
 
     <!-- Footer -->
     <footer>
+        <!-- Footer content enhanced with additional sections -->
         <section id="about-us">
             <h3>About Us</h3>
             <p>Posh Credit Union is dedicated to empowering our members through accessible, innovative financial solutions. We are committed to building a community where every member can achieve financial wellness.</p>
@@ -183,4 +343,6 @@
     </footer>
 
 </body>
+
 </html>
+
